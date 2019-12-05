@@ -16,7 +16,7 @@ namespace ComicBookGallery.Controllers
             }
             return new ContentResult()
             {
-                Content = "hello world"
+                Content = "hello world this is my first controllator"
             };
         }
     }
