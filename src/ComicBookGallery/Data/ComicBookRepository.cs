@@ -60,6 +60,11 @@ namespace ComicBookGallery.Data
                             Favorite = false
                    }
             };
+
+        public ComicBook[] GetComicBooks() 
+        {
+            return _comicBooks;
+        }
         public ComicBook getComicBook(int id) 
         {
             ComicBook comicBookReturn = null;
